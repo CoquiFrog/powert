@@ -1,0 +1,28 @@
+.moveymove2 {
+    animation: movey 3s;
+    -webkit-animation: movey 3s;
+  }
+  
+  @keyframes movey {
+    from {
+      margin-right: 100%;
+      width: 300%; 
+    }
+  
+    to {
+      margin-right: 0%;
+      width: 100%;
+    }
+  }
+              
+  @-webkit-keyframes movey {
+    from {
+      margin-right: 100%;
+      width: 300%; 
+    }
+  
+    to {
+      margin-right: 0%;
+      width: 100%;
+    }
+  }

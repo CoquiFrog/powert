@@ -1,0 +1,60 @@
+@import '../variables';
+
+.answers{
+  height: 200px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 170px;
+  margin-bottom: 140px;
+
+}
+
+.Center {
+  text-align: center;
+}
+
+.upward {
+  margin-bottom: 100px;
+}
+
+.Left {
+  text-align: left;
+}
+
+.Right{
+  text-align: right;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: $banana;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.container {
+  div {
+    width: 100px;
+    height: 100px;
+    background: $primary-color;
+    color: $primary-fontColor;
+    display: inline-block;
+    margin:20px;
+  }
+}

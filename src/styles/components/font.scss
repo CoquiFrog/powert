@@ -1,0 +1,36 @@
+//This is a Japanese-esque writing font
+
+.papy {
+	font-family: Papyrus, fantasy;
+	font-size: 48px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 700;
+	line-height: 52px;
+}
+
+.lefty {
+    align-items: left;
+}
+
+//We will use this font for the large Japanese characters displayed in the quiz
+
+.sansbig {
+    font-family: Sans-Serif;
+    font-size: 400px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 700;
+	line-height: 52px;
+}
+
+.sansnormal {
+    font-family: Sans-Serif;
+    font-size: 90px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 700;
+    line-height: 52px;
+    padding-right: 40px;
+    margin-right: 40px;
+}
