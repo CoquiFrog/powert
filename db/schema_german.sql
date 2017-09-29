@@ -1,0 +1,21 @@
+INSERT INTO Germanlist (word, meaning, answer1, answer2, answer3, answer4)
+VALUES
+('baum', 'tree', 'tree', 'leaf', 'tower', 'star'),
+('fluss', 'river', 'lines', 'river', 'road', 'scratch'),
+('regen', 'rain', 'snow', 'storm','dew','rain'),
+('berg', 'mountain', 'gate','building','mountain','cliff'),
+('mond','moon','moon','powder','tea','compost'),
+('recht','right','glass','miss','right','timer'),
+('links','left','fall','jewelry','left','meal'),
+('weiß','white','thumb','white','column','potato'),
+('billig','cheap','bongo','joke','radish','cheap'),
+('herz','heart','storm','heart','quarter','hut'),
+('freund','friend','friend','dark','front','trail'),
+('leben','life','tights','horse','swim','life'),
+('sonne','sun','carriage','recess','territory','sun'),
+('feuer','fire','fire','drawing','grade','client'),
+('treffen','meeting,','meeting','punch','raft','emu'),
+('himmel','heaven','cup','heaven','page','point'),
+('wenig','few','locket','melody','few','mother'),
+('frau','woman','wheel','fort','believe','woman'),
+('mann','man','man','slipper','sprout','aid');

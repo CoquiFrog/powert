@@ -2,14 +2,15 @@ import React, { Component } from 'react';
 // import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 // import axios from 'axios';
+import Statprinter, { } from './../../../src/components/buttonrender/buttonrender.js';
 
 
 
-class Home extends Component {
-  // constructor(props){
-  //   super(props);
-  //     this.state = {
-  //       kanjiobject: {},
+class Stats extends Component {
+  constructor(props){
+    super(props);
+      this.state = {}
+  }
 
   //     }
   // }
@@ -22,13 +23,14 @@ class Home extends Component {
   //   })
   // }
   render() {
+    console.log(this.props);
     return (
-        <div className="Center">
+        <div className="Center bimage21">
             <br></br>
-        <h2 className="papy">The mighty stat page</h2>
+        <h2 className="papy">Here is a list of other options</h2>
         <br></br>
       
-        <p className="papy">There will be stats here one day</p>
+        <p className="papy">You can learn German if you want</p>
         <br></br>
         <br></br>
         <br></br>
@@ -36,16 +38,11 @@ class Home extends Component {
         <Link to='/'><button className='gradient'>Go Home</button></Link>
         <br></br>
         <br></br>
-
-        <Link to='/quiz'><button className='gradient'>Study more kanji</button></Link>
+        
+        <Link to='/german'><button className='gradient btn verd'>Switch to German</button></Link>
         <br></br>
         <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
+        <Link to='/foreignresults'><button className='gradient btn verd'>Foreign Key</button></Link>
         {/* <div className="papy Left">Kanji data here: {this.state.kanjiobject.character}</div>
         <br></br>
         <br></br>
@@ -59,36 +56,13 @@ class Home extends Component {
         <br></br>
         <br></br> */}
 
-        <div className="papy Left">User Name: </div>
-        <br></br>
-        <br></br>
-        <br></br>
-        <div className="papy Left">Questions Answered:</div>
-        <br></br>
-        <br></br>
-        <br></br>
-        <div className="papy Left">Correct Answers:</div>
-        <br></br>
-        <br></br>
-        <br></br>
-        <div className="papy Left">Mistakes Made:</div>
-        <br></br>
-        <br></br>
-        <br></br>
-        <div className="papy Left">Ranking:</div>
-        <br></br>
-        <br></br>
-        <br></br>
-        <div className="papy Left">Motivation Level:</div>
-        <br></br>
-        <br></br>
-        <br></br>
-   
-        <div className="bimage2"></div>
+        {/* <Statprinter />
+    */}
+       
          
       </div>
     );
   }
 }
 
-export default Home;
+export default Stats;

@@ -1,3 +1,125 @@
+@media screen
+ and (min-width:10px)
+ and (max-width: 600px){
+
+	
+	.papy {
+		font-family: Papyrus, fantasy;
+		font-size: 28px;
+		font-style: normal;
+		font-variant: normal;
+		font-weight: 700;
+		line-height: 28px;
+	}
+	
+	.lefty {
+		align-items: left;
+	}
+	
+	//We will use this font for the large Japanese characters displayed in the quiz
+	
+	.sansbig {
+		font-family: Sans-Serif;
+		font-size: 200px;
+		font-style: normal;
+		font-variant: normal;
+		font-weight: 700;
+		line-height: 26px;
+	}
+
+	.sansbig2 {
+		font-family: Sans-Serif;
+		font-size: 200px;
+		font-style: normal;
+		font-variant: normal;
+		font-weight: 700;
+		line-height: 26px;
+	}
+	
+	.sansnormal {
+		font-family: Sans-Serif;
+		font-size: 45px;
+		font-style: normal;
+		font-variant: normal;
+		font-weight: 700;
+		line-height: 26px;
+	}
+	.newtimes {
+		font-family: 'Times New Roman', Times, serif;
+		font-size: 90px;
+		font-style: normal;
+		font-variant: normal;
+		font-weight: 700;
+		line-height: 52px;
+	
+	}
+
+	.newtimes2 {
+		font-family: 'Times New Roman', Times, serif;
+		font-size: 30px;
+		font-style: normal;
+		font-variant: normal;
+		font-weight: 700;
+		line-height: 26px;
+	
+	}
+
+
+}
+@media screen
+and (min-width:601px)
+and (max-width:800px)
+{
+	//This is a Japanese-esque writing font
+
+.papy {
+	font-family: Papyrus, fantasy;
+	font-size: 50px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 700;
+	line-height: 50px;
+}
+
+.lefty {
+    align-items: left;
+}
+
+//We will use this font for the large Japanese characters displayed in the quiz
+
+.sansbig {
+    font-family: Sans-Serif;
+    font-size: 300px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 700;
+	line-height: 39px;
+}
+
+.sansnormal {
+    font-family: Sans-Serif;
+    font-size: 75px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 700;
+	line-height: 39px;
+	
+}
+.newtimes {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 80px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 700;
+	line-height: 52px;
+
+}
+
+}
+@media screen
+ and (min-width:750px)
+ and (max-width:6000px)
+ {
 //This is a Japanese-esque writing font
 
 .papy {
@@ -17,7 +139,7 @@
 
 .sansbig {
     font-family: Sans-Serif;
-    font-size: 400px;
+    font-size: 300px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 700;
@@ -31,6 +153,16 @@
 	font-variant: normal;
 	font-weight: 700;
     line-height: 52px;
-    padding-right: 40px;
-    margin-right: 40px;
+    
+}
+
+.newtimes {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 120px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 700;
+	line-height: 52px;
+
+}
 }

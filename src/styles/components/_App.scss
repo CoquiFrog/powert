@@ -1,23 +1,14 @@
 @import '../variables';
-
-.answers{
-  height: 200px;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  margin-top: 170px;
-  margin-bottom: 140px;
-
+.correct{
+  color: #00FF44;
 }
 
-.Center {
-  text-align: center;
+.wrong{
+  color: #ff0000;
 }
 
-.upward {
-  margin-bottom: 100px;
-}
+
+
 
 .Left {
   text-align: left;
@@ -27,10 +18,295 @@
   text-align: right;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.fadingpower {
+  animation: fadingpowergo 9s;
 }
+
+@keyframes fadingpowergo {
+  0% {opacity: 0}
+  50% {opacity: 1}
+  100% {opacity: 0}
+}
+
+ 
+.App-logo {
+  animation: logo-tilt infinite 20s linear;
+  height: 90px;
+}
+
+@keyframes logo-tilt {
+  
+      0% {transform: rotate(0deg);}
+      20% {transform: rotate(25deg); }
+      40% {transform: rotate(-25deg);}
+      60% {transform: rotate(25deg);}
+      80% { transform: rotate(-25deg); }
+      100% { transform: rotate(0deg); }
+    }
+
+// .moveme{
+//   animation: mover 3s;
+// }
+
+// @keyframes mover{
+//   from{margin-left:100%}
+//   to{margin-left:0%}
+// }
+// @-webkit-keyframes mover{
+//   from{margin-left:100%}
+//   to{margin-left:0%}
+// }
+
+
+  @media screen
+  and (min-width:10px)
+  and (max-width: 600px){
+    .whitebox{
+      background-color: white;
+      height: 160px;
+      width: 190px;
+      // opacity: .5;
+      margin: 0 auto;
+      border: 2px solid black;
+      padding-top: 9px;
+    }
+
+    .whitebox2{
+      background-color: white;
+      height: 80px;
+      width: 190px;
+      margin: 0 auto;
+      border: 2px solid black;
+      padding-top: 14px;
+    }
+
+    .whitebox3{
+      background-color: white;
+      height: 180px;
+      width: 110px;
+      margin: 0 auto;
+      border: 2px solid black;
+      padding-top: 8px;
+    }
+
+    .whitebox4{
+      background-color: white;
+      height: 55px;
+      width: 140px;
+      margin: 0 auto;
+      border: 2px solid black;
+      padding-top: 8px;
+    }
+    
+    
+    
+    .gradient {
+      color: #fff;
+      text-shadow: -2px 2px #346392;
+      background-color: $sky;
+      transition: all .8s;
+      background-blend-mode: color-dodge;
+     
+      
+    }
+  
+    .gradient:hover {
+      background-color: #fff;
+      transition: all .8s;
+      border-radius: 10px;
+      color: $sky;
+    }
+    
+    .gradient:active {
+      box-shadow: inset 0 0 0 1px #E97B10,inset 0 2px 15px #193047;
+    }
+  
+  
+    button {
+      display: inline-block;
+      margin: 0 5px 0 0;
+      padding: 14px 37px;
+      font-size: 34px;
+      font-family: "Bitter",serif;
+      line-height: 1.5;
+      appearance: none;
+      box-shadow: none;
+      border-radius: 0;
+    }
+    
+    button:focus {
+      outline: none
+    }
+    .wrong2{
+      font-family: Sans-Serif;
+      font-size: 25px;
+      font-style: normal;
+      font-variant: normal;
+      font-weight: 700;
+      line-height: 26px;
+     
+      }
+      .correct2{
+      font-family: Sans-Serif;
+      font-size: 25px;
+      font-style: normal;
+      font-variant: normal;
+      font-weight: 700;
+      line-height: 26px;
+      // padding-right: 5px;
+      // margin-right: 5px;
+      // margin-top: 15px;
+      // padding-top: 50px;
+      // padding-bottom: 40px;
+      
+      }
+  .answers{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 20px;
+    // margin-bottom: 25px;
+    text-align:center;
+  
+  }
+
+  .buttonfix{
+    // padding-top: 190px;
+    margin-top: 35px;
+    display: flex;
+    flex-wrap:wrap;
+
+  }
+  
+  .Center {
+    text-align: center;
+  }
+  .upward {
+    margin-bottom: 100px;
+  }
+  
+  
+  .App-header {
+    background-color: $banana;
+    height: 150px;
+    padding: 20px;
+    color: white;
+  }
+  
+
+  
+ 
+  
+  .container {
+    div {
+      width: 100px;
+      height: 100px;
+      background: $primary-color;
+      color: $primary-fontColor;
+      display: inline-block;
+      margin:20px;
+    }
+  }
+  
+
+}
+
+@media screen
+and (min-width:601px)
+and (max-width: 800px){
+  .gradient {
+    color: #fff;
+    text-shadow: -2px 2px #346392;
+    background-color: $sky;
+    transition: all .8s;
+    background-blend-mode: color-dodge;
+   
+    
+  }
+
+  .gradient:hover {
+    background-color: #fff;
+    transition: all .8s;
+    border-radius: 10px;
+    color: $sky;
+  }
+  
+  .gradient:active {
+    box-shadow: inset 0 0 0 1px #E97B10,inset 0 2px 15px #193047;
+  }
+
+
+  button {
+    display: inline-block;
+    margin: 0 5px 0 0;
+    padding: 14px 37px;
+    font-size: 34px;
+    font-family: "Bitter",serif;
+    line-height: 1.5;
+    appearance: none;
+    box-shadow: none;
+    border-radius: 0;
+  }
+  
+  button:focus {
+    outline: none
+  }
+  .wrong2{
+    font-family: Sans-Serif;
+    font-size: 25px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 26px;
+    padding-right: 5px;
+    margin-right: 5px;
+   
+    }
+    .correct2{
+    font-family: Sans-Serif;
+    font-size: 25px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 26px;
+    // padding-right: 5px;
+    // margin-right: 5px;
+    // margin-top: 15px;
+    // padding-top: 50px;
+    // padding-bottom: 40px;
+    
+    }
+.answers{
+  height: 200px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 100px;
+  // margin-bottom: 25px;
+  text-align:center;
+
+}
+
+.buttonfix{
+  // padding-top: 190px;
+  // margin-top: 35px;
+  // display: flex;
+  // flex-wrap:wrap;
+
+}
+
+.Center {
+  text-align: center;
+}
+.upward {
+  margin-bottom: 100px;
+}
+
 
 .App-header {
   background-color: $banana;
@@ -39,14 +315,9 @@
   color: white;
 }
 
-.App-intro {
-  font-size: large;
-}
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
+
+
 
 .container {
   div {
@@ -57,4 +328,123 @@
     display: inline-block;
     margin:20px;
   }
+}
+
+}
+@media screen
+and (min-width:750px)
+and (max-width:6000px){
+  .whiteboxbig1{
+    background-color: white;
+    height: 380px;
+    width: 360px;
+    margin: 0 auto;
+    border: 2px solid black;
+    padding-top: 8px;
+    
+  }
+  .answers{
+    height: 160px;
+    width: calc(100% - 240px);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 170px;
+    margin-bottom: 140px;
+    margin-left: 120px;
+    margin-right: 120px;
+  }
+  
+
+  .totheleft{
+    transform:translateX(-20px);
+  }
+
+  .totheright{
+    transform:translateX(20px);
+  }
+
+  .totheleft2{
+   transform:translateX(-100px);
+
+  }
+
+  .totheright2{
+    transform:translateX(100px);
+  }
+
+  .tothedown{
+    transform:translateY(160px);
+  }
+
+  .gradient {
+    color: #fff;
+    text-shadow: -2px 2px #346392;
+    background-color: $sky;
+    transition: all .8s;
+    background-blend-mode: color-dodge;
+   
+    
+  }
+
+  .gradient:hover {
+    background-color: #fff;
+    transition: all .8s;
+    border-radius: 15px;
+    color: $sky;
+  }
+  
+  .gradient:active {
+    box-shadow: inset 0 0 0 1px #0C0500,inset 0 5px 30px #193047;
+  }
+
+
+  button {
+    display: inline-block;
+    margin: 0 10px 0 0;
+    padding: 15px 45px;
+    font-size: 48px;
+    font-family: "Bitter",serif;
+    line-height: 1.8;
+    appearance: none;
+    box-shadow: none;
+    border-radius: 0;
+  }
+  
+  button:focus {
+    outline: none
+  }
+  
+  .Center {
+    text-align: center;
+  }
+  .upward {
+    margin-bottom: 100px;
+  }
+  
+  
+  .App-header {
+    background-color: $banana;
+    height: 150px;
+    padding: 20px;
+    color: white;
+  }
+  
+.padbottom{
+
+}
+  
+ 
+  
+  .container {
+    div {
+      width: 100px;
+      height: 100px;
+      background: $primary-color;
+      color: $primary-fontColor;
+      display: inline-block;
+      margin:20px;
+    }
+  }
+  
 }
