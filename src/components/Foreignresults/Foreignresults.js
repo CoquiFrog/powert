@@ -158,7 +158,7 @@ class Foreignresults extends Component {
     }
     onScale14() {
         this.setState({
-            scale6: this.state.scale6 > 1 ? 1 : 1.5
+            scale6: this.state.scale6 > 1 ? 1 : 6
         });
     }
 

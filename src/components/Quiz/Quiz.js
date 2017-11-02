@@ -242,7 +242,7 @@ class Quiz extends Component {
         <div>question {this.state.questioncount}</div>
         </div>
         <div>
-          <div className="Left" >Take a look at the Japanese character below, then select the answer you think is correct!</div>
+    
         </div>
       
         <Buttonrender

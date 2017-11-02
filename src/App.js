@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import router from './router';
 // import './server.js';
+import './index.css';
+import './styles/main.css';
 
 
 
